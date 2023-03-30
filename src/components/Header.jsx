@@ -3,7 +3,7 @@ import logo from "../images/logo.png";
 import user from "../images/user.svg";
 const Header = () => {
   return (
-    <div className="  flex items-center  justify-between  font-poppins text-[#264A9F] cursor-pointer mx-[10vw] ">
+    <div className=" bg-white sticky top-0  flex items-center  justify-between  font-poppins text-[#264A9F] cursor-pointer px-[10vw] ">
       <a className="bg-white border p-2 rounded border-[#f5f5f5] h-16 w-16 shadow-[3px_3px_6px_#bfc3cf,_-3px_-3px_6px_#fff] m-4   ">
         <img src={logo} alt="logo" />
       </a>

@@ -5,8 +5,8 @@ import apple from "../images/appple.svg";
 import dropdown from "../images/iconDown.png";
 const Footer = () => {
   return (
-    <div className="block md:mx-[10vw]">
-      <div className="flex  justify-between mt-20 py-14   px-14 bg-[#EAECF0]  border-solid rounded-xl  border-[#f5f5f5]  shadow-[3px_3px_6px_#bfc3cf,_-3px_-3px_6px_#fff] cursor-pointer">
+    <div className="mx-[10vw]">
+      <div className="flex  justify-between   gap-4 mt-20 py-14   px-14 bg-[#EAECF0]  border-solid rounded-xl  border-[#f5f5f5]  shadow-[3px_3px_6px_#bfc3cf,_-3px_-3px_6px_#fff] cursor-pointer">
         <div className="space-y-10">
           <img
             className="bg-white border  rounded border-[#f5f5f5] shadow-[3px_3px_6px_#bfc3cf,_-3px_-3px_6px_#fff] h-18 w-20"
@@ -57,7 +57,7 @@ const Footer = () => {
       </div>
     
 
-      <div className="bg-[#EAECF0] px-10 rounded-xl  border-[#f5f5f5]  shadow-[3px_3px_6px_#bfc3cf,_-3px_-3px_6px_#fff] cursor-pointer grid grid-rows-3 md:grid-cols-4 gap-6 mt-10 text-[#264A9F] items-center w-full">
+      <div className="bg-[#EAECF0] px-10 rounded-xl  border-[#f5f5f5]  shadow-[3px_3px_6px_#bfc3cf,_-3px_-3px_6px_#fff] cursor-pointer grid grid-cols-1 md:grid-cols-4 gap-6 mt-10 text-[#264A9F] items-center w-full">
         <div className=" py-3  border border-r-gray-300 h-full">
           Health Insurance
         </div>

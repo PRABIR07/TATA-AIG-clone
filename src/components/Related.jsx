@@ -26,7 +26,7 @@ const Related = () => {
     <>
       <div className="mx-[10vw] py-8 cursor-pointer ">
         <h1 className="text-3xl text-[#264A9F] ">Related Articles</h1>
-        <div className=" flex-col   md:flex  gap-4 mt-6 ">
+        <div className=" flex-col flex md:flex-row gap-4 mt-6 ">
           {articleData.map((data) => (
             <div className="bg-[#EAECF0]  border border-[#f5f5f5] rounded-2xl  shadow-[3px_3px_6px_#bfc3cf,_-3px_-3px_6px_#fff] hover:shadow-[3px_3px_6px_#B4C4F8,_-3px_-3px_6px_#fff]">
               <img
