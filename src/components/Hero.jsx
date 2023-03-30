@@ -8,7 +8,7 @@ import Scroll from "../images/scroll.svg";
 const Hero = () => {
   return (
     <>
-      <div className="flex flex-col md:flex justify-evenly font-poppins mt-10 mx-[10vw]">
+      <div className="flex justify-evenly font-poppins mt-10 mx-[10vw]">
         <div>
           <h1 className="text-[#264a9f] font-semibold text-[24px] md:text-[28px] text-center md:text-left">
             Trusted Naam, Fantastic Kaam!
